@@ -2,9 +2,16 @@ const kontostand = 150;
 let kontostand1 = kontostand;
 const prize = 7000;
 
-function generateDice (random, className) {
+const audio = new Audio("audio/button-20.mp3");
+const buttons = document.querySelectorAll("button");
 
-audio.play(); 
+buttons.forEach(button => {
+    button.addEventListener("click", () => {
+      audio.play();
+    });
+  });
+
+function generateDice (random, className) { 
 
     switch (random) {
         case 1: document.querySelector("."+className).classList = "fa-solid fa-dice-one fa-4x fa-beat" + " "+ className; break;
@@ -45,12 +52,5 @@ function revert() {
 
 
 
-const audio = new Audio("audio/button-20.mp3");
-const buttons = document.querySelectorAll("button");
 
-buttons.forEach(button => {
-    button.addEventListener("click", () => {
-      audio.play();
-    });
-  });
 
