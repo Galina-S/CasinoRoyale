@@ -10,7 +10,6 @@ body {
     rgba(0, 0, 0, 0.7)),
     url("image/index.jpeg");
     background-repeat: no-repeat;
-
     background-size: cover;
     background-position: center;
 
@@ -19,7 +18,6 @@ body {
     justify-content: center;
     align-items: center;
     color: darkred;
-
     font-family: 'Roboto Mono', monospace;
 }
 
@@ -34,8 +32,8 @@ button:hover {
     color: white;
     font-weight: bold;
     cursor: pointer;
-
 }
+
 #reset {
     font-size: 1.5rem;
 }
@@ -47,19 +45,9 @@ button:hover {
     align-items: center;
     background-color: aliceblue;
     opacity: 0.5;
-    padding: 15px;    @media screen and (max-width: 768px) {
-        main {
-            font-size: 1rem;
-            font-family: 'Courier New', Courier, monospace;
-            margin: 15px 15px 0 15px;
-        }
-    }
-    
+    padding: 15px;   
 }
 
-#kontostand{
-    font-size: 2.5rem;
-}
 #kontostand {
     font-weight: bold;
     font-size: 3rem;
@@ -67,18 +55,15 @@ button:hover {
     padding: 0;
 }
 
-
 .lightning div{
-    display: inline-block;
-    
+    display: inline-block;   
 }
 
 .c p {
     animation: color-change 2s infinite;
-  }
+}
 
-
-.a1  p{
+.a1 p{
     animation: color-change 2s infinite;
     animation-delay: 0.15s;
 }
@@ -110,21 +95,21 @@ button:hover {
 
 .o2 p{
     animation: color-change 2s infinite;
-    animation-delay: 1s;
+    animation-delay: 1.05s;
 }
 .y p{
-    animation: color-change 2s infinite;
-    animation-delay: 1.1s;
-}
-
-.a2 p{
     animation: color-change 2s infinite;
     animation-delay: 1.2s;
 }
 
+.a2 p{
+    animation: color-change 2s infinite;
+    animation-delay: 1.35s;
+}
+
 .l p{
     animation: color-change 2s infinite;
-    animation-delay: 1.3s;
+    animation-delay: 1.45s;
 }
 
 .e p{
@@ -181,8 +166,6 @@ strong {
     }
 
     button {
-        padding:0;
-        margin: 0; 
         font-family: 'Montserrat', sans-serif; 
     }
 
