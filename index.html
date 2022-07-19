@@ -11,12 +11,43 @@
     <title>Casino Royale</title>
 </head>
 <body>
-<div>
-<h1>Casino Royale</h1>
+    <embed name="GoodEnough" src="music.mp3" loop="false" hidden="true" autostart="true">
+
+    <div class="form"> 
+        <div class="lightning">
+        <div class="c"><p>C</p></div>
+        <div class="a1"><p>A</p></div>
+        <div class="s"><p>S</p></div>
+        <div class="i"><p>I</p></div>
+        <div class="n"><p>N</p></div>
+        <div class="o1"><p>O</p></div>
+   
+        <div class="empty"><p></p></div>
+
+        <div class="r"><p>R</p></div>
+        <div class="o2"><p>O</p></div>
+        <div class="y"><p>Y</p></div>
+        <div class="a2"><p>A</p></div>
+        <div class="l"><p>L</p></div>
+        <div class="e"><p>E</p></div>
+    </div>
+<p id="welcome">We welcome you to our casino. Start celebrating your wins with us today!</p>
+<p id="welcome">A game is played by throwing 6 dice. </p>
+<p id="welcome"> You will win <strong>7000€</strong> if the dice show the same number, otherwise you lose <strong>1€</strong>.</p>
+<p id="welcome"> Try your luck! </p>
+
+<p id="prize"></p>
 <p id="kontostand"></p>
-    <button onclick="run()">Wetten!</button>    
-    <button type="reset" onclick="revert()">Reset!</button>
-    <div class="fa-solid"></div>
+    <button onclick="run()" id="wetten">Wetten!</button>    
+    <button type="reset" onclick="revert()" id="reset">Reset!</button>
+    <section> 
+        <div class="fa-solid first"></div>
+        <div class="fa-solid second"></div>
+        <div class="fa-solid third"></div>
+    </section>
+    <section><div class="fa-solid fourth"></div>
+        <div class="fa-solid fifth"></div>
+        <div class="fa-solid sixth"></div></section>
 </div>
     <script src="index.js"></script>
 </body>
