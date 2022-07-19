@@ -1,0 +1,44 @@
+body {
+    width:100vw;
+    height:100vh;
+    background: 
+    linear-gradient(rgba(0, 0, 0, 0.7), 
+    rgba(0, 0, 0, 0.7)),
+    url("image/index.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: darkred;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+button {
+    font-size: 2rem;
+    margin: 20px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    opacity: 0.5;
+    padding: 15px;
+    border-radius:10%;
+}
+
+#kontostand, #randomNumber {
+    font-size: 3rem;
+}
+#kontostand {
+    font-weight: bold;
+}
