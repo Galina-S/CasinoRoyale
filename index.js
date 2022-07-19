@@ -48,6 +48,7 @@ function run() {
 function revert() {
     document.querySelector("#kontostand").innerHTML = kontostand+"€";
     document.querySelector("#prize").innerHTML ="";
+    kontostand1 = kontostand;
 }
 
 
