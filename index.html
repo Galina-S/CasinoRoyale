@@ -11,7 +11,11 @@
     <title>Casino Royale</title>
 </head>
 <body>
-    <embed name="GoodEnough" src="music.mp3" loop="false" hidden="true" autoplay="true">
+    <audio controls autoplay>
+        <source src="music.mp3" type="audio/ogg">
+        <source src="music.mp3" type="audio/mpeg">
+      
+      </audio> 
 
     <div class="form"> 
         <div class="lightning">
@@ -37,6 +41,7 @@
 <p id="welcome"> Try your luck! </p>
 
 <p id="kontostand">150€</p>
+
     <button onclick="run()" id="wetten">Wetten!</button>    
     <button type="reset" onclick="revert()" id="reset">Reset!</button>
     <section> 
