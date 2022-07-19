@@ -7,12 +7,12 @@ function generateDice (random, className) {
 audio.play(); 
 
     switch (random) {
-        case 1: document.querySelector("."+className).classList = "fa-solid fa-dice-one fa-5x fa-beat" + " "+ className; break;
-        case 2: document.querySelector("."+className).classList = "fa-solid fa-dice-two fa-5x fa-beat" + " "+ className; break;
-        case 3: document.querySelector("."+className).classList = "fa-solid fa-dice-three fa-5x fa-beat"+ " " + className; break;
-        case 4: document.querySelector("."+className).classList = "fa-solid fa-dice-four fa-5x fa-beat" + " "+ className; break;
-        case 5: document.querySelector("."+className).classList = "fa-solid fa-dice-five fa-5x fa-beat" + " "+ className; break;
-        case 6: document.querySelector("."+className).classList = "fa-solid fa-dice-six fa-5x fa-beat"+ " " + className; break;
+        case 1: document.querySelector("."+className).classList = "fa-solid fa-dice-one fa-4x fa-beat" + " "+ className; break;
+        case 2: document.querySelector("."+className).classList = "fa-solid fa-dice-two fa-4x fa-beat" + " "+ className; break;
+        case 3: document.querySelector("."+className).classList = "fa-solid fa-dice-three fa-4x fa-beat"+ " " + className; break;
+        case 4: document.querySelector("."+className).classList = "fa-solid fa-dice-four fa-4x fa-beat" + " "+ className; break;
+        case 5: document.querySelector("."+className).classList = "fa-solid fa-dice-five fa-4x fa-beat" + " "+ className; break;
+        case 6: document.querySelector("."+className).classList = "fa-solid fa-dice-six fa-4x fa-beat"+ " " + className; break;
     }
     return random;
 }
