@@ -169,7 +169,7 @@ strong {
 @media screen and (max-width: 768px) {
     .lightning p {
         color: #484848;
-        font-size: 1.5rem;
+        font-size: 1.7rem;
         font-family: Lato;
         padding: 0px;
         font-weight: bold;
@@ -182,15 +182,30 @@ strong {
 
     button {
         padding:0;
-        margin: 0;  
+        margin: 0; 
+        font-family: 'Montserrat', sans-serif; 
     }
 
     #welcome {
         text-align: center;
+        font-weight: bold;
+        font-family: 'Montserrat', sans-serif;
     }
 
     #wetten {
+        font-size: 1.7rem;
+        margin-bottom: 10px;
+        padding: 5px;
+    }
+
+    button:hover {
         font-size: 2rem;
         margin-bottom: 10px;
+        padding: 5px;
     }
-}
+
+    .fa-solid {
+        --fa-animation-duration: 2s;
+        padding:10px;
+    }
+}   
